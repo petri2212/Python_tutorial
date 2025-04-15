@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89231791-6061-47fb-a7cd-90f00962d188" name="Changes" comment="Variables">
-      <change afterPath="$PROJECT_DIR$/Basics/Calculator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/Input_from_user.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/Numbers_manipulation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/String_manipulaiton.py" afterDir="false" />
+    <list default="true" id="89231791-6061-47fb-a7cd-90f00962d188" name="Changes" comment="Calculator">
+      <change afterPath="$PROJECT_DIR$/Basics/Classes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/Discrionary.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/Student.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/functions.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,11 +56,14 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.Calculator.executor": "Run",
+    "Python.Discrionary.executor": "Run",
     "Python.Input_from_user.executor": "Run",
     "Python.Numbers_manipulation.executor": "Run",
     "Python.String_manipulaiton.executor": "Run",
+    "Python.Student.executor": "Run",
     "Python.Variables.executor": "Run",
     "Python.app.executor": "Run",
+    "Python.functions.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
@@ -101,7 +105,7 @@
       <updated>1744722274115</updated>
       <workItem from="1744722274796" duration="462000" />
       <workItem from="1744722934183" duration="759000" />
-      <workItem from="1744723866142" duration="6055000" />
+      <workItem from="1744723866142" duration="8433000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -143,7 +147,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744725850577</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Calculator">
+      <option name="closed" value="true" />
+      <created>1744745294435</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1744745294435</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,6 +165,7 @@
     <MESSAGE value="init" />
     <MESSAGE value="Hello world :)" />
     <MESSAGE value="Variables" />
-    <option name="LAST_COMMIT_MESSAGE" value="Variables" />
+    <MESSAGE value="Calculator" />
+    <option name="LAST_COMMIT_MESSAGE" value="Calculator" />
   </component>
 </project>
