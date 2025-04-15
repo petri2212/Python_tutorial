@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89231791-6061-47fb-a7cd-90f00962d188" name="Changes" comment="Hello world :)">
+    <list default="true" id="89231791-6061-47fb-a7cd-90f00962d188" name="Changes" comment="Variables">
+      <change afterPath="$PROJECT_DIR$/Basics/Calculator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/Input_from_user.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/Numbers_manipulation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basics/String_manipulaiton.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/Basics/Hello Wold.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +54,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.Calculator.executor": "Run",
+    "Python.Input_from_user.executor": "Run",
+    "Python.Numbers_manipulation.executor": "Run",
+    "Python.String_manipulaiton.executor": "Run",
     "Python.Variables.executor": "Run",
     "Python.app.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -94,7 +101,7 @@
       <updated>1744722274115</updated>
       <workItem from="1744722274796" duration="462000" />
       <workItem from="1744722934183" duration="759000" />
-      <workItem from="1744723866142" duration="1864000" />
+      <workItem from="1744723866142" duration="6055000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -128,7 +135,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744724193721</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Variables">
+      <option name="closed" value="true" />
+      <created>1744725850577</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1744725850577</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,6 +152,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <MESSAGE value="Hello world :)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hello world :)" />
+    <MESSAGE value="Variables" />
+    <option name="LAST_COMMIT_MESSAGE" value="Variables" />
   </component>
 </project>
