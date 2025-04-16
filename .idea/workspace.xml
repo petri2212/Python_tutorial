@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89231791-6061-47fb-a7cd-90f00962d188" name="Changes" comment="Calculator">
-      <change afterPath="$PROJECT_DIR$/Basics/Classes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/Discrionary.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/Student.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basics/functions.py" afterDir="false" />
+    <list default="true" id="89231791-6061-47fb-a7cd-90f00962d188" name="Changes" comment="Finished Basics">
+      <change afterPath="$PROJECT_DIR$/Applications/Clock.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Applications/DS-DIGIT.TTF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +53,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.Calculator.executor": "Run",
+    "Python.Clock.executor": "Run",
     "Python.Discrionary.executor": "Run",
     "Python.Input_from_user.executor": "Run",
     "Python.Numbers_manipulation.executor": "Run",
@@ -83,9 +81,39 @@
       <recent name="C:\Users\petri\Desktop\inTjFolder\Tutorial\Basics" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\petri\Desktop\inTjFolder\Tutorial\Applications" />
       <recent name="C:\Users\petri\Desktop\inTjFolder\Tutorial\Basics" />
       <recent name="C:\Users\petri\Desktop\inTjFolder\Tutorial" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Clock" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Tutorial" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Applications" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Applications/Clock.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Clock" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -105,7 +133,8 @@
       <updated>1744722274115</updated>
       <workItem from="1744722274796" duration="462000" />
       <workItem from="1744722934183" duration="759000" />
-      <workItem from="1744723866142" duration="8433000" />
+      <workItem from="1744723866142" duration="8546000" />
+      <workItem from="1744793703551" duration="4161000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -155,7 +184,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744745294435</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Finished Basics">
+      <option name="closed" value="true" />
+      <created>1744747778881</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1744747778881</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,6 +203,7 @@
     <MESSAGE value="Hello world :)" />
     <MESSAGE value="Variables" />
     <MESSAGE value="Calculator" />
-    <option name="LAST_COMMIT_MESSAGE" value="Calculator" />
+    <MESSAGE value="Finished Basics" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished Basics" />
   </component>
 </project>
