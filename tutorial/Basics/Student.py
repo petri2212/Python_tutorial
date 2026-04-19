@@ -1,4 +1,4 @@
-from Classes import Student
+from tutorial.Basics.Classes import Student
 
 student1= Student("carlo", "info", 8, True)
 
