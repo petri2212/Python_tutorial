@@ -77,4 +77,199 @@ for i in range(2,6):
 for i in range(5,1,-1):
     print(i)
 """
+"""
 #Math
+
+#print(5/2)
+
+#print(5//2) 2
+
+#print(-3//2)  -2 
+
+#print(int(-3/2))
+
+#print(10 % 3) 1
+
+#print(-20 % 3) 2
+
+#print(10 % 3)
+
+import math
+from multiprocessing import heap
+#print(math.fmod(-10,3)) #returns the module of the reminder
+
+print(math.floor(3/2))
+print(math.ceil(3/2))
+print(math.sqrt(2))
+print(math.pow(2,3)) 
+
+print(math.pow(2, 200))# py num are infinite but never touches inf
+
+print(math.pow(2, 200) < float("inf"))
+"""
+
+#ARRAYS
+"""
+arr = [1,2,3]
+print(arr)
+
+arr.append(4)
+arr.append(5)
+print(arr)
+
+arr.pop()
+print(arr)
+
+arr.insert(1,7)
+print(arr)
+
+arr[0] = 0
+arr[3] = 0
+print(arr)
+
+
+n=5
+arr = [1] * n
+print(arr)
+print(len(arr))
+
+arr = [1,2,3]
+arr[-1]=0 #latest value. -2 second latest value ecc
+print(arr)
+
+arr = [1,2,3,4]
+
+print(arr[1:3])
+
+print(arr[0:4])#similar to for loops
+
+print(arr[0:10]) # no out of bound
+
+# Unpacking
+a, b, c = [1, 2, 3]
+print(a, b, c)
+
+nums = [1, 2, 3]
+
+for i in range(len(nums)):
+    print(nums[i])
+
+for g in nums:
+    print(g)
+
+for i, n in enumerate(nums): #enumerate allows me to loop and have access to both index and element itself 
+    print(i, n)
+
+    # Loop through multiple arrays simultaneously with unpacking
+nums1 = [1, 3, 5]
+nums2 = [2, 4, 6]
+for n1, n2 in zip(nums1, nums2):
+    print(n1, n2)
+
+names = ["Alice", "Bob", "Charlie"]
+ages = [25, 30, 35]
+
+zipped = zip(names, ages)
+print(list(zipped))
+
+fruits = ["Apple", "Banana", "Cherry"]
+colors = ["Red", "Yellow", "Dark Red"]
+
+for fruit, color in zip(fruits, colors):
+    print(f"{fruit} is {color}.")
+
+
+nums = [1, 2, 3]
+nums.reverse()
+print(nums)
+
+arr = [5, 4, 7, 3, 8]
+arr.sort()
+print(arr)
+
+arr.sort(reverse=True)
+print(arr)
+
+arr = ["bob", "alice", "jane", "doe"]
+arr.sort()
+print(arr)
+
+# Custom sort (by length of string)
+arr.sort(key=lambda x: len(x))
+print(arr)
+
+arr = [i for i in range(5)]
+print(arr)
+
+# 2-D lists
+arr = [[0] * 4 for i in range(4)]
+print(arr)
+print(arr[0][0], arr[3][3])
+
+for i in range(len(arr)):
+    for j in range(len(arr)):
+        print(arr[i][j], " ", end='') # flag end e non va piu lo spazio
+    print("")
+"""
+"""
+### STRINGS
+
+s = "abc"
+print(s[0:2])
+
+#s[0] = "A" # like arrays but are immutable
+
+s += "def"
+print(s)
+
+print(int("123") + int("123")) #top
+print(str(123) + str(123))
+
+print(ord("a")) #ascii
+print(ord("b"))
+
+strings = ["ab", "cd", "ef"]
+print("".join(strings))
+
+"""
+"""
+###QUEUE
+from collections import deque
+
+queue = deque()
+queue.append(1)
+queue.append(2)
+print(queue)
+
+queue.popleft()
+print(queue)
+
+queue.appendleft(1)
+print(queue)
+
+queue.pop()
+print(queue)
+"""
+"""
+# HashSet
+mySet = set()
+
+mySet.add(1)
+mySet.add(2)
+print(mySet)
+print(len(mySet))
+
+print(1 in mySet)
+print(2 in mySet)
+print(3 in mySet)
+
+mySet.remove(2)
+print(2 in mySet)
+
+# list to set
+print(set([1, 2, 3]))
+
+
+mySet = { i for i in range(5) }
+print(mySet)
+"""
