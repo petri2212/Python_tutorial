@@ -1,4 +1,5 @@
-"""from datetime import datetime
+"""
+from datetime import datetime
 odds = [1,3,5,7,9,11,13,15,17,19,21,23,25,27,
         29,31,33,35,37,39,41,43,45,47,49,51,53,55,57,59]
 
@@ -194,7 +195,7 @@ arr = ["bob", "alice", "jane", "doe"]
 arr.sort()
 print(arr)
 
-# Custom sort (by length of string)
+# Custom  sort (bylength of string)
 arr.sort(key=lambda x: len(x))
 print(arr)
 
@@ -273,3 +274,86 @@ print(set([1, 2, 3]))
 mySet = { i for i in range(5) }
 print(mySet)
 """
+"""
+### HashMap
+
+MyMap = {}
+MyMap["alice"] = 88
+MyMap["bob"] = 77
+print(MyMap)
+print(len(MyMap))
+
+
+MyMap["alice"] = 80
+print(MyMap["alice"])
+
+print("alice" in MyMap)
+MyMap.pop("alice")
+print("alice" in MyMap)
+
+myMap = { "alice": 90, "bob": 70 }
+print(myMap)
+
+myMap = { i: 2*i for i in range(3) }
+print(myMap)
+
+myMap = { "alice": 90, "bob": 70 }
+for key in myMap:
+    print(key, myMap[key])
+
+for val in myMap.values():
+    print(val)
+
+for key, val in myMap.items():
+    print(key, val)
+"""
+"""
+### TUPLES
+# Tuples are like arrays but immutable
+tup = (1, 2, 3)
+print(tup)
+print(tup[0])
+print(tup[-1])
+
+myMap = { (1,2): 3 }
+print(myMap[(1,2)])
+
+mySet = set()
+mySet.add((1, 2))
+print((1, 2) in mySet)
+
+# Lists can't be keys
+# myMap[[3, 4]] = 5  
+"""
+import heapq
+
+# under the hood are arrays
+minHeap = []
+heapq.heappush(minHeap, 3)
+heapq.heappush(minHeap, 2)
+heapq.heappush(minHeap, 4)
+
+# Min is always at index 0
+print(minHeap[0])
+
+while len(minHeap):
+    print(heapq.heappop(minHeap))
+
+# No max heaps by default, work around is
+# to use min heap and multiply by -1 when push & pop.
+maxHeap = []
+heapq.heappush(maxHeap, -3)
+heapq.heappush(maxHeap, -2)
+heapq.heappush(maxHeap, -4)
+
+# Max is always at index 0
+print(-1 * maxHeap[0])
+
+while len(maxHeap):
+    print(-1 * heapq.heappop(maxHeap))
+
+# Build heap from initial values
+arr = [2, 1, 8, 4, 5]
+heapq.heapify(arr)
+while arr:
+    print(heapq.heappop(arr))
